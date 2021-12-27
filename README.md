@@ -12,7 +12,7 @@ More than happy to be on the recieving end of any tips regarding best practice o
 
 ## Stack
 
-- :heart_eyes: Gatsby V2
+- :heart_eyes: Gatsby V4
 - :earth_americas: Leaflet (with react-leaflet)
 - :gem: Good Old Google Fonts
 - :kiss: Prettier
