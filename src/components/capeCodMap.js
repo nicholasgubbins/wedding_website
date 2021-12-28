@@ -1,5 +1,5 @@
 import React from "react";
-import { Map, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 export default class CapeCodMap extends React.Component {
   state = {
@@ -15,7 +15,7 @@ export default class CapeCodMap extends React.Component {
     const position = [this.state.lat, this.state.lng];
     if (typeof window !== "undefined") {
       return (
-        <Map
+        <MapContainer
           style={style}
           preferCanvas={true}
           center={position}
@@ -64,7 +64,7 @@ export default class CapeCodMap extends React.Component {
           <Marker position={[39.04463, -94.59657]}>
             <Popup>Hampton Inn & Suites Kansas City-Country Club Plaza</Popup>
           </Marker>
-        </Map>
+        </MapContainer>
       );
     } else {
       return null;
