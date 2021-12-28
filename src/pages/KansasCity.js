@@ -1,5 +1,5 @@
 import React from "react";
-import CapeCodMap from "../components/capeCodMap";
+import KansasCityMap from "../components/kansasCityMap";
 import Layout from "../components/layout";
 
 import dining from "../images/restaurant.svg";
@@ -18,7 +18,7 @@ export default class KansasCity extends React.Component {
       <Layout title="Kansas City" location={this.props.location}>
         <article id="map">
           <figure>
-            <CapeCodMap />
+            <KansasCityMap />
           </figure>
           <section>
             <p>
@@ -175,7 +175,7 @@ export default class KansasCity extends React.Component {
               <div>
                 <div className="lineup">
                   <img alt="" src={binoculars} />
-                  <h3>Sights</h3>
+                  <h3>Sights & Activities</h3>
                   <ul>
                     <li>
                       <a href="https://www.theworldwar.org/">
@@ -191,46 +191,6 @@ export default class KansasCity extends React.Component {
                       <a href="https://provincetowntourismoffice.org/">
                         Provincetown
                       </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="lineup">
-                  <img alt="" src={tent} />
-                  <h3>Activities</h3>
-                  <ul>
-                    <li>
-                      <a href="https://www.mass.gov/locations/cape-cod-rail-trail">
-                        Cape Cod Rail Trail
-                      </a>
-                    </li>
-                    <li>
-                      <a href="http://capecodonline.com/cape-cod-beaches/national-seashore/">
-                        National Seashore
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.affordable-cape-cod-vacations.com/cape-cod-whale-watching.html">
-                        Whale Watching
-                      </a>
-                    </li>
-                    <li>
-                      <a href="http://www.artsdunetours.com/">
-                        Art's Dune Tours
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="lineup">
-                  <img alt="" src={ship} />
-                  <h3>Cross the Sea</h3>
-                  <ul>
-                    <li>
-                      <a href="https://www.vineyardferries.com/">
-                        Martha's Vineyard
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.nantucketferries.com/">Nantucket</a>
                     </li>
                   </ul>
                 </div>
