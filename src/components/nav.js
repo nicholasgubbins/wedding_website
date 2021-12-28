@@ -33,7 +33,7 @@ export default class Nav extends React.Component {
       <nav>
         <div id="details">
           <div>
-            <a href="/jessiandmartin.ics">
+            <a href="/ReeceandJaimeWedding.ics">
               <i className="far fa-calendar-alt" />
               October 23, 2022
             </a>

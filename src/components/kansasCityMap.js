@@ -1,7 +1,7 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
-export default class CapeCodMap extends React.Component {
+export default class kansasCityMap extends React.Component {
   state = {
     lat: 39.0997,
     lng: -94.5786,

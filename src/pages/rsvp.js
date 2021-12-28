@@ -107,18 +107,10 @@ export default class Rsvp extends React.Component {
         <article>
           <section>
             <p>
-              We're really excited to have you join us on the day, but it also
-              warms our hearts to know that you like us enough to fill out a
-              form. If you could get back to us by <b>April 10</b> that would be
-              splendid.
+             Coming Soon!
             </p>
-            <p>
-              We'd also really appreciate it if you could make sure you fill out
-              the form for each individual person attending in your party so we
-              can manage the menu choices. Have no fear, all the options are
-              delicious.
-            </p>
-            <form
+
+{/*             <form
               data-netlify="true"
               data-netlify-honeypot="bot-field"
               method="post"
@@ -191,7 +183,7 @@ export default class Rsvp extends React.Component {
               <div>
                 <input type="submit" value="I promise I'll be good" />
               </div>
-            </form>
+            </form> */}
           </section>
         </article>
       </Layout>
