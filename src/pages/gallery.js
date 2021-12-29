@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import React from 'react';
 import Layout from "../components/layout";
 
-import Gallery from 'gatsby-image-gallery/src';
+import Gallery from '@browniebroke/gatsby-image-gallery/src';
 
 const gal = ({ data, location }) => {
   const images = data.images.edges.map(({ node }, index) => ({
