@@ -1,10 +1,9 @@
 import React from "react";
 import Layout from "../components/layout";
 import {StaticImage, GatsbyImage,getImage} from "gatsby-plugin-image";
-import { graphql } from "gatsby";
 
 
-const props = () => (
+export default props => (
   <Layout title="Reece &amp; Jaime" location={props.location}>
     <StaticImage 
     src = "../images/WILLOUGHBY_0035_CROP.jpg" 
@@ -26,5 +25,4 @@ const props = () => (
   </Layout>
 );
 
-export default props;
 
