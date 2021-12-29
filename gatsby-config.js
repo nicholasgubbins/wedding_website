@@ -16,6 +16,7 @@ module.exports = {
         icon: "src/images/fountain.png" // This path is relative to the root of the site.
       }
     },
+    "gatsby-plugin-image",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -23,9 +24,9 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
+    `gatsby-plugin-typescript`,
     "gatsby-plugin-offline",
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
   ]
 };

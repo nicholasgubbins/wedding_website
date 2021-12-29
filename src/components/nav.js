@@ -47,6 +47,7 @@ export default class Nav extends React.Component {
         </div>
         <ul>
           <List path={this.props.path} link={"/"} text={"Home"} />
+          <List path={this.props.path} link={"/gallery"} text={"Gallery"} />
           <List path={this.props.path} link={"/schedule"} text={"Schedule"} />
           <List path={this.props.path} link={"/KansasCity"} text={"Kansas City"} />
           <List path={this.props.path} link={"/travel"} text={"Travel"} />
