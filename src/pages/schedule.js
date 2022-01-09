@@ -3,14 +3,14 @@ import Layout from "../components/layout";
 
 import rings from "../images/wedding-rings.svg";
 import donut from "../images/donut.svg";
-import grill from "../images/grill.png";
+import party from "../images/party.png";
 
 export default props => (
   <Layout title="Schedule" location={props.location}>
     <div className="one-column">
       <div>
-        <img alt="Grill" src={grill} />
-        <h2>Pot Luck</h2>
+        <img alt="party" src={party} />
+        <h2>Welcome Party</h2>
         <h4>Saturday October 22, 2022</h4>
         <h4>6:30pm-10:00pm</h4>
         <h3>Our House</h3>
@@ -18,9 +18,8 @@ export default props => (
         <h5>Casual</h5>
         <p>
           If you are looking for something to do the night before the big day,
-          we will be hosting a potluck in our backyard. We will provide the main
-          dish, but would love help with sides, desserts, etc. Drop by for a quick
-          eat to say hello before the big celebration!
+          we will be hosting a Welcome Party in our backyard. We will provide the food
+          so just stop by and say hello! We are so excited to see you!
         </p>
       </div>
       <hr /> 
@@ -33,8 +32,8 @@ export default props => (
         <h4>4518 Troost Ave, Kansas City, MO 64110</h4>
         <h5>Formal/Cocktail Attire</h5>
         <p>
-          5 pm seating for a courtyard ceremony followed by great drinks, tacos, 
-          charming speeches and questionable dancing.
+          4:30 pm seating for a 5 pm courtyard ceremony followed by great drinks, tacos, 
+          and more fun!
         </p>
       </div>
       <hr />
