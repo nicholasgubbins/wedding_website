@@ -19,14 +19,12 @@ export default class Rsvp extends React.Component {
       data: {
         firstName: "",
         firstEmail: "",
-        firstRestrictions: "",
+        firstNbr: "",
         firstMain: "chicken",
-        firstFact: "",
         secondName: "",
         secondEmail: "",
-        secondRestrictions: "",
+        firstNbr: "",
         secondMain: "chicken",
-        secondFact: "",
         more: ""
       }
     };
@@ -85,17 +83,15 @@ export default class Rsvp extends React.Component {
     const first = {
       name: data.firstName,
       email: data.firstEmail,
-      restrictions: data.firstRestrictions,
-      main: data.firstMain,
-      fact: data.firstFact
+      phnbr: data.firstNbr,
+      main: data.firstMain
     };
 
     const second = {
       name: data.secondName,
       email: data.secondEmail,
-      restrictions: data.secondRestrictions,
-      main: data.secondMain,
-      fact: data.secondFact
+      phnbr: data.secondNbr,
+      main: data.secondMain
     };
 
     const formName = "rsvp-2019";
@@ -110,7 +106,7 @@ export default class Rsvp extends React.Component {
              Coming Soon!
             </p>
 
-{/*             <form
+{/* {            <form
               data-netlify="true"
               data-netlify-honeypot="bot-field"
               method="post"
@@ -119,6 +115,7 @@ export default class Rsvp extends React.Component {
               id="rsvp"
               onSubmit={this.handleSubmit}
             >
+
               <input type="hidden" name="form-name" value={formName} />
               <p hidden>
                 <label>
@@ -126,6 +123,7 @@ export default class Rsvp extends React.Component {
                   <input name="bot-field" onChange={this.handleChange} />
                 </label>
               </p>
+
               <FormData
                 handleChange={this.handleChange}
                 values={first}
@@ -158,7 +156,7 @@ export default class Rsvp extends React.Component {
                   </li>
                 </ul>
               </div>
-              {this.state.toggle && (
+              {this.state.toggle && 
                 <FormData
                   handleChange={this.handleChange}
                   values={second}
@@ -167,23 +165,10 @@ export default class Rsvp extends React.Component {
                   adjective="their"
                 />
               )}
-              <div>
-                <label htmlFor="more">
-                  Is there anything else you'd like to let us know?
-                </label>
-                <textarea
-                  onChange={this.handleChange}
-                  value={this.state.more}
-                  id="more"
-                  name="more"
-                  cols="35"
-                  rows="10"
-                />
-              </div>
-              <div>
+
                 <input type="submit" value="I promise I'll be good" />
-              </div>
-            </form> */}
+
+            </form> } */}
           </section>
         </article>
       </Layout>

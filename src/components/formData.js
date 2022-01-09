@@ -1,8 +1,8 @@
 import React from "react";
 
 export default props => {
-  const { handleChange, id, pronoun, adjective } = props;
-  const { name, email, restrictions, main, fact } = props.values;
+  const { handleChange, id } = props;
+  const { name, email, phnbr,main } = props.values;
   return (
     <div>
       <div>
@@ -27,22 +27,23 @@ export default props => {
           required
         />
       </div>
+
       <div>
-        <label htmlFor={id + "Restrictions"}>
-          Do {pronoun} have any dietary restrictions?
-        </label>
+        <label htmlFor={id + "Email"}>Phone Number:</label>
         <input
           type="text"
-          id={id + "Restrictions"}
-          name={id + "Restrictions"}
-          placeholder="e.g. nut allergy, gluten intolerant, vegan..."
+          id={id + "PhNbr"}
+          name={id + "PhNbr"}
           onChange={handleChange}
-          value={restrictions}
+          value={phnbr}
+          required
         />
       </div>
+
+
       <div>
         <label htmlFor={id + "Main"}>
-          What terribly delicious dish would {pronoun} like for {adjective}{" "}
+          What terribly delicious dish would you like for your{" "}
           main?
         </label>
         <select
@@ -68,18 +69,8 @@ export default props => {
         </select>
       </div>
       <div>
-        <label htmlFor={id + "Fact"}>
-          Tell us an interesting fact about{" "}
-          {pronoun === "you" ? "yourself" : "them"}:
-        </label>
-        <input
-          type="text"
-          id={id + "Fact"}
-          name={id + "Fact"}
-          onChange={handleChange}
-          value={fact}
-          required
-        />
+
+
       </div>
     </div>
   );
