@@ -10,9 +10,9 @@ export default props => (
           Are children invited to the wedding?
         </h3>
         <p>
-          As long as your invitation was addressed to "The XYZ Family" then yes! 
+          As long as your invitation/save the date was addressed to "The XYZ Family" then yes! 
           We are expecting you to bring your kids as they are a part of the family! 
-          If you invitation was not addressed to "The XYZ Family", please just reach 
+          If you invitation/save the date was not addressed to "The XYZ Family", please just reach 
           out to one of us so we can make sure we have room in the head count for an extra guest!
         </p>
         <h3>How do I get to Kansas City?</h3>
@@ -37,7 +37,8 @@ export default props => (
         </p>
         <h3>Is anything going on the rest of the weekend?</h3>
         <p>
-          Coming soon!
+          Check out our {" "} <Link to="/schedule">schedule page</Link> to find out what other events we are
+          hosting that weekend!
         </p>
         <h3>What's the weather going to be like?</h3>
         <p>
@@ -53,7 +54,7 @@ export default props => (
         </p>
         <h3>When we're not at the wedding, what should we do?</h3>
         <p>
-          Coming Soon!
+          Check out our{" "} <Link to="/KansasCity">Kansas City</Link> page for some Sights & Activities!
         </p>
       </section>
     </article>
