@@ -95,7 +95,7 @@ export default class KansasCity extends React.Component {
                     </li>
                     <li>
                       <a href="https://www.hilton.com/en/hotels/mkchshx-hampton-suites-kansas-city-country-club-plaza/">
-                         Hampton Inn & Suites Kansas City-Country Club Plaza
+                         Hampton Inn and Suites Kansas City-Country Club Plaza
                       </a>
                     </li>
                     <li>
@@ -120,7 +120,7 @@ export default class KansasCity extends React.Component {
               >
                 <div className="lineup">
                   <img alt="" src={dining} />
-                  <h3>Dining, Dessert, & Drinks</h3>
+                  <h3>Dining, Dessert, and Drinks</h3>
                   <ul>
                     <li>
                       <a href="http://westportcafeandbar.com/">Westport Cafe</a>
@@ -215,7 +215,7 @@ export default class KansasCity extends React.Component {
               <div>
                 <div className="lineup">
                   <img alt="" src={binoculars} />
-                  <h3>Sights & Activities</h3>
+                  <h3>Sights and Activities</h3>
                   <ul>
                     <li>
                       <a href="https://www.theworldwar.org/">
@@ -254,7 +254,7 @@ export default class KansasCity extends React.Component {
                     </li>
                     <li>
                     <a href="https://www.trumanlibrary.gov/">
-                        Harry S. Truman Library & Museum
+                        Harry S. Truman Library and Museum
                       </a>
                     </li>
                     <li>

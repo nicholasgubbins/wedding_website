@@ -23,42 +23,37 @@ export default class kansasCityMap extends React.Component {
     };
 
     const position = [this.state.lat, this.state.lng];
+    if (typeof window !== 'undefined') {
+      const ringsicon = new L.Icon({
+        iconUrl: rings,
+        iconRetinaUrl: rings,
+        iconSize: [32,32],
+        iconAnchor: null,
+        shadowUrl: null,
+        shadowSize: null,
+        shadowAnchor: null,
+      });
 
-    const ringsicon = new L.Icon({
-      iconUrl: rings,
-      iconRetinaUrl: rings,
-      iconSize: [32,32],
-      iconAnchor: null,
-      shadowUrl: null,
-      shadowSize: null,
-      shadowAnchor: null,
+      const partyicon = new L.Icon({
+        iconUrl: party,
+        iconRetinaUrl: party,
+        iconSize: [32,32],
+        iconAnchor: null,
+        shadowUrl: null,
+        shadowSize: null,
+        shadowAnchor: null,
+      });
 
-      
-      
-});
-
-    const partyicon = new L.Icon({
-      iconUrl: party,
-      iconRetinaUrl: party,
-      iconSize: [32,32],
-      iconAnchor: null,
-      shadowUrl: null,
-      shadowSize: null,
-      shadowAnchor: null,
-  
-});
-
-
-const donuticon = new L.Icon({
-  iconUrl: donut,
-  iconRetinaUrl: donut,
-  iconSize: [25,25],
-  iconAnchor: null,
-  shadowUrl: null,
-  shadowSize: null,
-  shadowAnchor: null,
-
-});
+      const donuticon = new L.Icon({
+        iconUrl: donut,
+        iconRetinaUrl: donut,
+        iconSize: [25,25],
+        iconAnchor: null,
+        shadowUrl: null,
+        shadowSize: null,
+        shadowAnchor: null,
+      });
+}
 
     if (typeof window !== "undefined") {
       return (
