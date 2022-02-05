@@ -1,5 +1,12 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import L from 'leaflet';
+
+import rings from '../images/wedding-rings.svg';
+import party from '../images/party.png';
+import donut from '../images/donut.svg';
+
+
 
 export default class kansasCityMap extends React.Component {
   state = {
@@ -7,12 +14,52 @@ export default class kansasCityMap extends React.Component {
     lng: -94.5786,
     zoom: 10
   };
+
+
   render() {
     const style = {
       width: "calc(100% - 1rem)",
       height: "27.5rem"
     };
+
     const position = [this.state.lat, this.state.lng];
+
+    const ringsicon = new L.Icon({
+      iconUrl: rings,
+      iconRetinaUrl: rings,
+      iconSize: [32,32],
+      iconAnchor: null,
+      shadowUrl: null,
+      shadowSize: null,
+      shadowAnchor: null,
+
+      
+      
+});
+
+    const partyicon = new L.Icon({
+      iconUrl: party,
+      iconRetinaUrl: party,
+      iconSize: [32,32],
+      iconAnchor: null,
+      shadowUrl: null,
+      shadowSize: null,
+      shadowAnchor: null,
+  
+});
+
+
+const donuticon = new L.Icon({
+  iconUrl: donut,
+  iconRetinaUrl: donut,
+  iconSize: [25,25],
+  iconAnchor: null,
+  shadowUrl: null,
+  shadowSize: null,
+  shadowAnchor: null,
+
+});
+
     if (typeof window !== "undefined") {
       return (
         <MapContainer
@@ -27,7 +74,7 @@ export default class kansasCityMap extends React.Component {
             maxZoom="18"
             minZoom="8"
           />
-          <Marker position={[39.04482, -94.57306]}>
+          <Marker position={[39.04482, -94.57306]} icon = {ringsicon}>
             <Popup>
               <b>The venue!</b>
               <br />
@@ -63,6 +110,20 @@ export default class kansasCityMap extends React.Component {
           </Marker>
           <Marker position={[39.04463, -94.59657]}>
             <Popup>Hampton Inn & Suites Kansas City-Country Club Plaza</Popup>
+          </Marker>
+          <Marker position={[38.98999, -94.58006]} icon={partyicon}>
+            <Popup>
+            <b>Welcome Party</b>
+              <br />
+              Our House
+            </Popup>
+          </Marker>
+          <Marker position={[39.03143, -94.59426]} icon={donuticon}>
+            <Popup>
+            <b>Coffee & Donuts</b>
+              <br />
+              Loose Park
+            </Popup>
           </Marker>
         </MapContainer>
       );
