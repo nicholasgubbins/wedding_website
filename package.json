@@ -1,9 +1,10 @@
 {
-  "name": "jessi-and-martin-get-married",
+  "name": "get-married",
   "description": "Our wedding website, built on Gatsby default starter",
   "version": "1.0.0",
-  "author": "Martin Gaston",
+  "author": "Reece and Jaime, Martin Gaston",
   "dependencies": {
+    "@browniebroke/gatsby-image-gallery": "https://gitpkg.now.sh/browniebroke/gatsby-image-gallery/gatsby-image-gallery?main",
     "gatsby": "^4.0.0",
     "gatsby-cli": "^4.4.0",
     "gatsby-plugin-google-analytics": "^4.4.0",
@@ -31,7 +32,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.14.2"
+    "@types/react": "17.0.37",
+    "@types/react-dom": "17.0.11",
+    "@types/react-helmet": "6.1.4",
+    "@types/styled-components": "5.1.18",
+    "prettier": "^1.14.2",
+    "typescript": "4.5.4"
   },
   "repository": {
     "type": "git",

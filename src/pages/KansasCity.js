@@ -1,5 +1,5 @@
 import React from "react";
-import CapeCodMap from "../components/capeCodMap";
+import KansasCityMap from "../components/kansasCityMap";
 import Layout from "../components/layout";
 
 import dining from "../images/restaurant.svg";
@@ -18,7 +18,7 @@ export default class KansasCity extends React.Component {
       <Layout title="Kansas City" location={this.props.location}>
         <article id="map">
           <figure>
-            <CapeCodMap />
+            <KansasCityMap />
           </figure>
           <section>
             <p>
@@ -95,7 +95,7 @@ export default class KansasCity extends React.Component {
                     </li>
                     <li>
                       <a href="https://www.hilton.com/en/hotels/mkchshx-hampton-suites-kansas-city-country-club-plaza/">
-                         Hampton Inn & Suites Kansas City-Country Club Plaza
+                         Hampton Inn and Suites Kansas City-Country Club Plaza
                       </a>
                     </li>
                     <li>
@@ -120,54 +120,94 @@ export default class KansasCity extends React.Component {
               >
                 <div className="lineup">
                   <img alt="" src={dining} />
-                  <h3>Dining</h3>
+                  <h3>Dining, Dessert, and Drinks</h3>
                   <ul>
                     <li>
-                      <a href="https://www.arnoldsrestaurant.com/">Arnold's</a>
+                      <a href="http://westportcafeandbar.com/">Westport Cafe</a>
                     </li>
                     <li>
-                      <a href="http://www.pjscapecod.com">PJ's</a>
+                      <a href="https://www.cavakc.com/">CaVa</a>
                     </li>
                     <li>
-                      <a href="https://www.hotchocolatesparrow.com/">
-                        Hot Chocolate Sparrow
-                      </a>
+                      <a href="https://kcpotpie.com/">Potpie</a>
                     </li>
                     <li>
-                      <a href="https://www.sundaeschool.com/">Sundae School</a>
+                      <a href="https://illazzarone.org/">Il Lazzarone</a>
                     </li>
                     <li>
-                      <a href="https://www.capecodchefs.com/restaurant/blackfish/">
-                        Blackfish
-                      </a>
+                      <a href="https://www.ibisbakery.com/crossroads">Messenger Coffee + Ibis Bakery (Crossroads)</a>
                     </li>
                     <li>
-                      <a href="http://www.vieracapecod.com/">Viera</a>
+                      <a href="http://www.heirloomkc.com/">Heirloom Bakery</a>
                     </li>
                     <li>
-                      <a href="https://www.tripadvisor.co.uk/Attraction_Review-g41778-d105421-Reviews-Governor_Bradford-Provincetown_Cape_Cod_Massachusetts.html">
-                        Governor Bradford
-                      </a>
+                      <a href="https://www.mclainskc.com/">McLain's Bakery</a>
                     </li>
                     <li>
-                      <a href="http://www.thebrewsterwoodshed.com/">Woodshed</a>
+                      <a href="https://www.urbancafekc.com/">Urban Cafe</a>
                     </li>
                     <li>
-                      <a href="https://theholecapecod.com/">The Hole in One</a>
+                      <a href="http://www.towntopic.com/">Town Topic Hamburgers</a>
                     </li>
                     <li>
-                      <a href="http://www.thesquire.com/">Chatham Squire</a>
+                      <a href="https://www.lulusnoodles.com/">Lulu's Thai Noodle Shop</a>
                     </li>
                     <li>
-                      <a href="http://www.birdinthesun.com/">Sunbird Kitchen</a>
+                      <a href="https://www.waldothaiplace.com/">Waldo Thai</a>
                     </li>
                     <li>
-                      <a href="https://www.land-ho.com/">Land Ho!</a>
+                      <a href="https://chickennpickle.com/">Chicken N Pickle</a>
                     </li>
                     <li>
-                      <a href="https://sesuit-harbor-cafe.com/">
-                        Sesuit Harbor Cafe
-                      </a>
+                      <a href="https://www.tassosgreekrestaurant.com/">Tasso's Greek Restaurant</a>
+                    </li>
+                    <li>
+                      <a href="https://jerusalemkc.com/">Jerusalem Cafe</a>
+                    </li>
+                    <li>
+                      <a href="https://gochickengo.com/">Go Chicken Go</a>
+                    </li>
+                    <li>
+                      <a href="https://www.eatandys.com/">Andy's Custard</a>
+                    </li>
+                    <li>
+                      <a href="https://www.fairwaycreamery.com/">Fairway Creamery</a>
+                    </li>
+                    <li>
+                      <a href="http://bettyraes.com/">Betty Rae's Ice Cream</a>
+                    </li>
+                    <li>
+                      <a href="https://andreschocolates.com/">Andre's Chocolates</a>
+                    </li>
+                    <li>
+                      <a href="https://q39kc.com/">Q39 BBQ</a>
+                    </li>
+                    <li>
+                      <a href="https://www.joeskc.com/">Joe's KC</a>
+                    </li>
+                    <li>
+                      <a href="https://www.arthurbryantsbbq.com/">Arthur Bryant's BBQ</a>
+                    </li>
+                    <li>
+                      <a href="https://www.lcsbarbq.com/">LC's BAR-B-Q</a>
+                    </li>
+                    <li>
+                      <a href="https://gatesbbq.com/">Gate's BAR-B-Q</a>
+                    </li>
+                    <li>
+                      <a href="https://charbarkc.com/">Char Bar</a>
+                    </li>
+                    <li>
+                      <a href="https://www.boulevard.com/">Boulevard Brewing Company</a>
+                    </li>
+                    <li>
+                      <a href="https://kcbier.com/">KC Bier Co</a>
+                    </li>
+                    <li>
+                      <a href="https://www.toasttab.com/torn-label-brewing-co/v3/?mode=fulfillment">Torn Label Brewing Company</a>
+                    </li>
+                    <li>
+                      <a href="https://www.casualanimalbrewing.com/">Casual Animal Brewing Co</a>
                     </li>
                   </ul>
                 </div>
@@ -175,7 +215,7 @@ export default class KansasCity extends React.Component {
               <div>
                 <div className="lineup">
                   <img alt="" src={binoculars} />
-                  <h3>Sights</h3>
+                  <h3>Sights and Activities</h3>
                   <ul>
                     <li>
                       <a href="https://www.theworldwar.org/">
@@ -183,54 +223,44 @@ export default class KansasCity extends React.Component {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.tripadvisor.co.uk/Attractions-g60754-Activities-Wellfleet_Cape_Cod_Massachusetts.html">
-                        Wellfleet
+                      <a href="https://www.nelson-atkins.org/">
+                        The Nelson-Atkins Museum of Art
                       </a>
                     </li>
                     <li>
-                      <a href="https://provincetowntourismoffice.org/">
-                        Provincetown
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="lineup">
-                  <img alt="" src={tent} />
-                  <h3>Activities</h3>
-                  <ul>
-                    <li>
-                      <a href="https://www.mass.gov/locations/cape-cod-rail-trail">
-                        Cape Cod Rail Trail
+                      <a href="https://kcrivermarket.com/">
+                        The River Market
                       </a>
                     </li>
                     <li>
-                      <a href="http://capecodonline.com/cape-cod-beaches/national-seashore/">
-                        National Seashore
+                      <a href="https://toyandminiaturemuseum.org/">
+                        The National Museum of Toys and Miniatures
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.affordable-cape-cod-vacations.com/cape-cod-whale-watching.html">
-                        Whale Watching
+                      <a href="https://americanjazzmuseum.org/">
+                        American Jazz Museum
                       </a>
                     </li>
                     <li>
-                      <a href="http://www.artsdunetours.com/">
-                        Art's Dune Tours
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="lineup">
-                  <img alt="" src={ship} />
-                  <h3>Cross the Sea</h3>
-                  <ul>
-                    <li>
-                      <a href="https://www.vineyardferries.com/">
-                        Martha's Vineyard
+                      <a href="https://unionstation.org/">
+                        Union Station
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.nantucketferries.com/">Nantucket</a>
+                      <a href="https://www.nlbm.com/">
+                        Negro Leagues Baseball Museum
+                      </a>
+                    </li>
+                    <li>
+                    <a href="https://www.trumanlibrary.gov/">
+                        Harry S. Truman Library and Museum
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.legolanddiscoverycenter.com/kansas-city/">
+                        Legoland Discovery Center
+                      </a>
                     </li>
                   </ul>
                 </div>

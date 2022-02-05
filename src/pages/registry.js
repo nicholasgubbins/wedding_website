@@ -1,36 +1,56 @@
 import React from "react";
 import Layout from "../components/layout";
+import {StaticImage, GatsbyImage,getImage} from "gatsby-plugin-image";
+
 
 export default props => (
   <Layout title="Registry" location={props.location}>
     <article id="zola">
       <section>
         <p>
-          Make no mistake: your presence is the perfect present and we are not
-          expecting any gifts. In lieu of a traditional contribution, we would
-          also be deeply honoured to have you donate in our name to a
-          progressive cause you believe strongly in.
+          We have registered for a few items on Zola as seen below. If you don't see an item you want to purchase we also have several items to which you can contribute cash/checks at the wedding.
         </p>
-        <p>
-          If you'd still prefer to help us collect a few items for our future
-          together, we are registered for the Zola items below. For those in the
-          UK, please do take a minute to check the rules with your bank account
-          before making a payment in $ as many accounts may incur a fee. Thank
-          you!
-        </p>
+        <h2>Cash Funds:</h2>
+        <h3>Honeymoon</h3>
+        <StaticImage 
+        src = "../images/italy.jpg" 
+        alt = "italy" 
+        layout="fixed"
+        placeholder="blurred"/>
+        <h3>Watercolor Painting of our Wedding</h3>
+        <StaticImage 
+        src = "../images/watercolor.jpg" 
+        alt = "watercolor" 
+        layout="fixed"
+        placeholder="blurred"/>
+        <h3>Vaccum</h3>
+        <StaticImage 
+        src = "../images/Vaccum.jpg" 
+        alt = "vaccum" 
+        layout="fixed"
+        height={400}
+        placeholder="blurred"/>
+        <h3>House Projects</h3>
+        <StaticImage 
+        src = "../images/house.jpg" 
+        alt = "house" 
+        
+        placeholder="blurred"/>
+        <h2>Registry:</h2>
       </section>
       <div id="zola-iframe-container">
         <iframe
           id="zola-iframe"
           title="registry"
-          src="https://widget.zola.com/v1/widget/registry/jessiandmartin/html?maxItems=12&amp;partnerId=squarespace"
+          src="https://widget.zola.com/v1/widget/registry/jaimeandreece/html?maxItems=12&amp;partnerId=squarespace"
           className="zola-registry-iframe"
           scrolling="no"
           style={{ height: "1200px", width: "100%", position: "relative" }}
           width="100%"
           frameBorder="0"
         />
-      </div>
+      </div> 
+
     </article>
   </Layout>
 );

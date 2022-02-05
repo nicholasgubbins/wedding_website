@@ -28,17 +28,6 @@ export const Success = props => (
           Thanks for submitting your RSVP preferences. We can't wait to see you!
         </p>
         <p>
-          If you've yet to make travel plans, you might want to look into that
-          as soon as you can. It's a holiday weekend in the US, and the roads in
-          Boston might be pretty hectic. You also deserve to stay in a really
-          nice place - <Link to="/capecod">we've got some recommendations</Link>
-          , and obviously just drop us a message if you'd like any help sorting
-          your schedule.
-        </p>
-        <p>
-          Also, if you'll be driving from Boston to Cape Cod we'd recommend you
-          disregard what Google Maps optimistically says and give yourself about
-          three hours for the trip.
         </p>
       </section>
     </article>
