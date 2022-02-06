@@ -6,7 +6,7 @@ export default props => {
   return (
     <div>
       <fieldset>
-              <legend>TACOs</legend>
+              <legend>Dinner options</legend>
       Taco choice (3 per person):
       <div>
       <label for="taco1">Pastor</label>
@@ -23,6 +23,8 @@ export default props => {
       <input type="number" id="taco3" name="taco3" min="0" max={(people*3-Number(taco2)-Number(taco1))} onChange={handleChange}
           value={taco3}/> 
       </div>
+      <br/><br/>
+      There will also be a salsa bar with chips and a selection of desserts as well.
       </fieldset>
       Tacos needed: {people*3}, tacos selected : {Number(taco1) + Number(taco2)+Number(taco3)}
     </div>

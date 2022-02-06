@@ -26,7 +26,7 @@ export default class Rsvp extends React.Component {
         Email: "",
         Nbr: "",
         nattending:0,
-        Welcome: "false",
+        welcomedinner: "false",
         taco1:0,
         taco2:0,
         taco3:0
@@ -73,10 +73,38 @@ export default class Rsvp extends React.Component {
   };
 
 
-  handleGuest(e) {
-    this.setState((state, props) => {
-      return { toggle: !state.toggle };
-    });
+  handleGuest = e => {
+    const { name, value } = e.target;
+    console.log('asdfasdfasdf')
+    console.log(e.target.name)
+
+    switch(name){
+      case 'attending_no':
+        return (
+          this.setState(prevState => {
+            console.log(prevState.data.nattending)
+            return {         
+              data:{...prevState.data,
+                    nattending:0},
+              toggle: !prevState.toggle,
+              togglefood: false 
+            };
+          })
+        )
+        case 'attending':
+          return (
+            this.setState(prevState => {
+              return {         
+                data: {
+                  ...prevState.data,
+                },
+                toggle: !prevState.toggle,
+              };
+            })
+          )
+        default :
+        
+    }
   }
 
   handleFood = e => {
@@ -91,14 +119,15 @@ export default class Rsvp extends React.Component {
       togglefood: true
     }));
   }else{
-  this.setState(prevState => ({
-    data: {
-      ...prevState.data,
-      [name]: value
-    
-  },
-  togglefood: false
-}));}
+    this.setState(prevState => ({
+      data: {
+        ...prevState.data,
+        [name]: value
+      
+    },
+    togglefood: false
+    }));
+  }
   }
 
   componentDidMount() {
@@ -110,8 +139,8 @@ export default class Rsvp extends React.Component {
     const { data } = this.state;
 
     const first = {
-      name: data.Name
-      //attending: data.Attending
+      name: data.Name,
+      attending: data.Attending
     };
 
     const second = {
@@ -169,7 +198,8 @@ export default class Rsvp extends React.Component {
                     <input
                       type="radio"
                       id="guest_no"
-                      name="guest"
+                      name="attending_no"
+                      value={this.Attending}
                       onChange={this.handleGuest}
                       checked={!this.state.toggle}
                     />
@@ -179,7 +209,8 @@ export default class Rsvp extends React.Component {
                     <input
                       type="radio"
                       id="guest_yes"
-                      name="guest"
+                      name="attending"
+                      value={this.Attending}
                       onChange={this.handleGuest}
                       checked={this.state.toggle}
                     />
@@ -201,12 +232,15 @@ export default class Rsvp extends React.Component {
                   people = {second.nattending}
                 />)
               }
-              {(this.state.data.nattending*3 > (Number(this.state.data.taco1) + Number(this.state.data.taco2)+Number(this.state.data.taco3))) &&
+              {((this.state.data.nattending*3 > (Number(this.state.data.taco1) + Number(this.state.data.taco2)+Number(this.state.data.taco3))) 
+              && this.state.data.nattending != 0 ) &&
                <p>Add more tacos to submit!</p>}
-              {(this.state.data.nattending*3 < (Number(this.state.data.taco1) + Number(this.state.data.taco2)+Number(this.state.data.taco3))) &&
+              {((this.state.data.nattending*3 < (Number(this.state.data.taco1) + Number(this.state.data.taco2)+Number(this.state.data.taco3))) 
+              && this.state.data.nattending != 0 ) &&
                <p>Error, Too many tacos selected (3 per person for now please!)</p>}
                 
-              {(this.state.data.nattending*3 == (Number(this.state.data.taco1) + Number(this.state.data.taco2)+Number(this.state.data.taco3))) &&
+              {((this.state.data.nattending*3 == (Number(this.state.data.taco1) + Number(this.state.data.taco2)+Number(this.state.data.taco3)))
+              || this.state.data.nattending == 0 ) &&
                <input type="submit" value="I promise I'll be good" />}
                 
 

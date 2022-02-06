@@ -10,7 +10,6 @@ export default props => {
         <label htmlFor={"Email"}>Email:</label>
         <input
           type="email"
-          id={"Email"}
           name={"Email"}
           onChange={handleChange}
           value={email}
@@ -62,29 +61,29 @@ export default props => {
       </div>
 
       <div>
-      Do you think you might attend the welcome party? (See link <Link to="/schedule">here</Link>)
+      <p>Do you think you might attend the welcome party? (See link <Link to="/schedule">here</Link>)</p>
       <ul>
                   <li>
                     <input
                       type="radio"
-                      id="weclome_no"
-                      name="Welcome"
+                      name="welcomedinner"
+                      id="welcomeyes"
                       onChange={handleChange}
-                      checked={"false"}
-                      value = {welcomedinner}
+                      value = "welcome_yes"
+                      defaultChecked={welcomedinner === "welcome_yes"}
                     />
-                    <label htmlFor="guest_no">Yes</label>
+                    <label htmlFor="welcomeyes">Yes</label>
                   </li>
                   <li>
                     <input
                       type="radio"
-                      id="welcome_yes"
-                      name="Welcome"
+                      name="welcomedinner"
+                      id="welcomeno"
                       onChange={handleChange}
-                      checked={"true"}
-                      value = {welcomedinner}
+                      value = "welcome_no"
+                      defaultChecked={welcomedinner === "welcome_no"}
                     />
-                    <label htmlFor="guest_yes">No</label>
+                    <label htmlFor="welcomeno">No</label>
                   </li>
                 </ul>
 
