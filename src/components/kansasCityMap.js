@@ -23,7 +23,9 @@ export default class kansasCityMap extends React.Component {
     };
 
     const position = [this.state.lat, this.state.lng];
-    if (typeof window !== 'undefined') {
+
+
+    if (typeof window !== "undefined") {
       const ringsicon = new L.Icon({
         iconUrl: rings,
         iconRetinaUrl: rings,
@@ -53,9 +55,6 @@ export default class kansasCityMap extends React.Component {
         shadowSize: null,
         shadowAnchor: null,
       });
-}
-
-    if (typeof window !== "undefined") {
       return (
         <MapContainer
           style={style}
