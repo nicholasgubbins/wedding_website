@@ -1062,13 +1062,6 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
-"@browniebroke/gatsby-image-gallery@https://gitpkg.now.sh/browniebroke/gatsby-image-gallery/gatsby-image-gallery?main":
-  version "0.0.0"
-  resolved "https://gitpkg.now.sh/browniebroke/gatsby-image-gallery/gatsby-image-gallery?main#7391ae452568ae01439f8578fe302dda79d8c652"
-  dependencies:
-    react-image-lightbox "^5.1.4"
-    styled-components ">= 5.0"
-
 "@browniebroke/gatsby-image-gallery@https://gitpkg.now.sh/browniebroke/gatsby-image-gallery/gatsby-image-gallery?v7.1.0-next.1":
   version "0.0.0"
   resolved "https://gitpkg.now.sh/browniebroke/gatsby-image-gallery/gatsby-image-gallery?v7.1.0-next.1#bce5e17aa9b0b00a3858a13506173fb8dfbfa691"

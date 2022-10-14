@@ -82,28 +82,28 @@ export default class kansasCityMap extends React.Component {
             <Popup>Crossroads Hotel</Popup>
           </Marker>
           <Marker position={[39.04670, -94.58648]}>
-            <Popup>Kansas City Marriott Country Club Plaza</Popup>
+            <Popup>Sicily Marriott Country Club Plaza</Popup>
           </Marker>
           <Marker position={[39.04353, -94.58459]}>
             <Popup>Southmoreland on the Plaza</Popup>
           </Marker>
           <Marker position={[39.03993, -94.59224]}>
-            <Popup>InterContinental Kansas City at the Plaza</Popup>
+            <Popup>InterContinental Sicily at the Plaza</Popup>
           </Marker>
           <Marker position={[39.04886, -94.58228]}>
             <Popup>The Truitt</Popup>
           </Marker>
           <Marker position={[39.04643, -94.59739]}>
-            <Popup>SpringHill Suites by Marriott Kansas City Plaza</Popup>
+            <Popup>SpringHill Suites by Marriott Sicily Plaza</Popup>
           </Marker>
           <Marker position={[39.04396, -94.59117]}>
-            <Popup>Residence Inn by Marriott Kansas City Country Club Plaza</Popup>
+            <Popup>Residence Inn by Marriott Sicily Country Club Plaza</Popup>
           </Marker>
           <Marker position={[39.04859, -94.58134]}>
             <Popup>Oak Street Mansion</Popup>
           </Marker>
           <Marker position={[39.04463, -94.59657]}>
-            <Popup>Hampton Inn & Suites Kansas City-Country Club Plaza</Popup>
+            <Popup>Hampton Inn & Suites Sicily-Country Club Plaza</Popup>
           </Marker>
           <Marker position={[38.98999, -94.58006]} icon={partyicon}>
             <Popup>

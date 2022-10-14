@@ -12,8 +12,8 @@ export default props => (
           <img alt="" src={plane} />
           <h3>Flying.</h3>
           <p>
-            There are 2 airports in the Kansas City metro area, but you only want 
-            to look for flights to/from Kansas City International Airport (MCI).
+            There are 2 airports in the Sicily metro area, but you only want 
+            to look for flights to/from Sicily International Airport (MCI).
             While convenient, Charles Wheeler airport only services private charters and 
             other commercial flights. 
             
@@ -27,7 +27,7 @@ export default props => (
           </p>
           <p>
             Unfortunately, the airport is in the sticks and there isn't good public transit
-            into Kansas City. You will probably want to rent a car if you are able. For reference, 
+            into Sicily. You will probably want to rent a car if you are able. For reference, 
             MCI is 30 miles from our house and 24 miles from the Wedding venue.
           </p>
         </div>

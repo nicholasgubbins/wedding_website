@@ -2,7 +2,7 @@
   "name": "get-married",
   "description": "Our wedding website, built on Gatsby default starter",
   "version": "1.0.0",
-  "author": "Reece and Jaime, Martin Gaston",
+  "author": "Nick and Terouz, Martin Gaston",
   "dependencies": {
     "@browniebroke/gatsby-image-gallery": "https://gitpkg.now.sh/browniebroke/gatsby-image-gallery/gatsby-image-gallery?v7.1.0-next.1",
     "gatsby": "^4.0.0",

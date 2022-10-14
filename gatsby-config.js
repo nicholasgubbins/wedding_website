@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: "Jaime &amp; Reece Get Married"
+    title: "Terouz &amp; Nick Get Married"
   },
   plugins: [
     "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Jaime & Reece Get Married",
-        short_name: "Jaime & Reece",
+        name: "Terouz & Nick Get Married",
+        short_name: "Terouz & Nick",
         start_url: "/",
         background_color: "#bfe8e3",
         theme_color: "#bfe8e3",

@@ -51,7 +51,7 @@ export default props => (
         <iframe
           id="zola-iframe"
           title="registry"
-          src="https://widget.zola.com/v1/widget/registry/jaimeandreece/html?maxItems=12&amp;partnerId=squarespace"
+          src="https://widget.zola.com/v1/widget/registry/TerouzandNick/html?maxItems=12&amp;partnerId=squarespace"
           className="zola-registry-iframe"
           scrolling="no"
           style={{ height: "1200px", width: "100%", position: "relative" }}
