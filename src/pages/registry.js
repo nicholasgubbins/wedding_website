@@ -13,7 +13,7 @@ export default props => (
         <h2>Cash Funds:</h2>
         <h3>Honeymoon</h3>
         <StaticImage 
-        src = "../images/italy.jpg" 
+        src = "../images/italy.png" 
         alt = "italy" 
         placeholder="blurred"/>
         <h3>Watercolor Painting of our Wedding</h3>

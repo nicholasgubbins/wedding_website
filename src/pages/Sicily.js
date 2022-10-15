@@ -1,5 +1,5 @@
 import React from "react";
-import SicilyMap from "../components/kansasCityMap";
+import SicilyMap from "../components/sicilyMap";
 import Layout from "../components/layout";
 
 import dining from "../images/restaurant.svg";

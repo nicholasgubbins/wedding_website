@@ -7,7 +7,7 @@ import pizza from '../images/pizza.svg';
 
 
 
-export default class kansasCityMap extends React.Component {
+export default class SicilyMap extends React.Component {
   state = {
     lat: 37.0833,
     lng: 37.0833,
@@ -66,7 +66,7 @@ export default class kansasCityMap extends React.Component {
             </Popup>
           </Marker>
 
-          <Marker position={[37.0603, 15.2932]} icon={partyicon}>
+          <Marker position={[37.0603, 15.2932]} icon={pizzaicon}>
             <Popup>
             <b>Pizza Party</b>
               <br />
