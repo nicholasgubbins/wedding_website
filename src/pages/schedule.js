@@ -1,10 +1,9 @@
 import React from "react";
 import Layout from "../components/layout";
+import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
 
 import rings from "../images/wedding-rings.svg";
-import donut from "../images/donut.svg";
 import pizza from "../images/pizza.png";
-import party from "../images/party.png";
 
 export default (props) => (
   <Layout title="Schedule" location={props.location}>
