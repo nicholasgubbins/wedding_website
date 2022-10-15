@@ -4,7 +4,7 @@
 
 body {
   box-sizing: border-box;
-  background: #7b91a5;
+  background: #cc5500;
   font-family: "EB Garamond", serif;
   font-style: normal;
   font-weight: 400;
@@ -135,10 +135,6 @@ picture {
   width: calc(100% - 1rem);
 }
 
-img.flag {
-  filter: grayscale(80%);
-  opacity: 0.85;
-}
 
 h1 {
   font-family: "Cormorant Garamond", serif;
@@ -213,6 +209,10 @@ footer a {
 .fa-github {
   padding: 0.5rem;
   color: #4078c0;
+}
+
+i { 
+  padding: 2rem;
 }
 
 hr {

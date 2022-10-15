@@ -7,10 +7,7 @@ import binoculars from "../images/binoculars.svg";
 import tent from "../images/tent.svg";
 import ship from "../images/cruise.svg";
 
-import house1 from "../images/001-mansion.svg";
-import house2 from "../images/003-house-1.svg";
-import house3 from "../images/004-house-2.svg";
-import house4 from "../images/005-house-3.svg";
+
 
 export default class Sicily extends React.Component {
   render() {
@@ -25,88 +22,6 @@ export default class Sicily extends React.Component {
               While we are still realatively new to the area, we have done a bunch of exploring.
               Below are some places to stay and good eats.
             </p>
-            <h2>Where To Stay</h2>
-            <div className="two-grid">
-              <div>
-                <div className="reservations">
-                  <img alt="" src={house1} />
-                  <h3>Treat Yourself</h3>
-                  <ul>
-                    <li>
-                      <a href="https://www.marriott.com/hotels/travel/mcipl-kansas-city-marriott-country-club-plaza/">
-                        Sicily Marriott Country Club Plaza
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://crossroadshotelkc.com/">
-                        Crossroads Hotel
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.kansascityic.com/">
-                       InterContinental Sicily at the Plaza
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="reservations">
-                  <img alt="" src={house2} />
-                  <h3>Make Yourself At Home</h3>
-                  <ul>
-                    <li>
-                      <a href="https://www.airbnb.com/">Airbnb</a>
-                    </li>
-                    <li>
-                      <a href="https://www.vrbo.com/vacation-rentals">VRBO</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div>
-                <div className="reservations">
-                  <img alt="" src={house3} />
-                  <h3>Charm To Spare</h3>
-                  <ul>
-                    <li>
-                      <a href="https://oakstreetmansionkc.com/">
-                        Oak Street Mansion
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.thetruitt.com/">
-                        The Truitt
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://southmoreland.com/">
-                        Southmoreland on the Plaza
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="reservations">
-                  <img alt="" src={house4} />
-                  <h3>Keep It Simple</h3>
-                  <ul>
-                    <li>
-                      <a href="https://www.marriott.com/hotels/travel/mcimt-springhill-suites-kansas-city-plaza/">
-                        SpringHill Suites by Marriott Sicily Plaza
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.hilton.com/en/hotels/mkchshx-hampton-suites-kansas-city-country-club-plaza/">
-                         Hampton Inn and Suites Sicily-Country Club Plaza
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.marriott.com/hotels/travel/mcikc-residence-inn-kansas-city-country-club-plaza/">
-                        Residence Inn by Marriott Sicily Country Club Plaza
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
           </section>
           <section>
             <h2>What To Do</h2>

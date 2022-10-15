@@ -10,12 +10,11 @@ export default ({ children, location, title }) => (
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <link
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      <script
+        src="https://kit.fontawesome.com/22368b41d8.js"
         crossorigin="anonymous"
-      />
+      ></script>
+
       <link
         rel="stylesheet"
         href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
@@ -29,8 +28,6 @@ export default ({ children, location, title }) => (
       <Nav path={location.pathname} />
       {children}
     </div>
-    <footer>
-      
-    </footer>
+    <footer></footer>
   </div>
 );
