@@ -28,6 +28,13 @@ export default ({ children, location, title }) => (
       <Nav path={location.pathname} />
       {children}
     </div>
-    <footer></footer>
+    <footer>
+      <p>
+        Built with <i className="fas fa-heart" /> by Nick while Terouz was on night shifts. Forked on
+        <a href="https://github.com/martingaston/wedding_website">
+          <i className="fab fa-github" />
+        </a> from <a href="https://github.com/martingaston">@martingaston</a>
+      </p>
+    </footer>
   </div>
 );

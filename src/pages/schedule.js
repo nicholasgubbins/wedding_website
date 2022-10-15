@@ -31,14 +31,15 @@ export default (props) => (
           3 pm seating for a 3:30 pm ceremony followed by great good food, good
           drinks, and good times!
         </p>
-        <StaticImage
+      </div>
+    </div>
+    <div>
+      <StaticImage
         src="../images/borgo.jpg"
         alt="Borgo del Carato"
         placeholder="blurred"
       />
-      </div>
-      
-      <hr />
     </div>
+    <hr />
   </Layout>
 );
