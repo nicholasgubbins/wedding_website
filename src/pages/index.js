@@ -13,7 +13,7 @@ export default props => (
     <article id="story">
       <section>
         <hr />
-        <h2>We can't wait to celebrate with you!</h2>
+        <h2>We can't wait to celebrate with you! c:</h2>
         <hr />
         <p>
 Nick & Terouz cordially invite you to come on holiday 
