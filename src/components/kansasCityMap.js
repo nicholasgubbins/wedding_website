@@ -3,15 +3,14 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from 'leaflet';
 
 import rings from '../images/wedding-rings.svg';
-import party from '../images/party.png';
-import donut from '../images/donut.svg';
+import pizza from '../images/pizza.svg';
 
 
 
 export default class kansasCityMap extends React.Component {
   state = {
-    lat: 39.0997,
-    lng: -94.5786,
+    lat: 37.0833,
+    lng: 37.0833,
     zoom: 10
   };
 
@@ -36,9 +35,9 @@ export default class kansasCityMap extends React.Component {
         shadowAnchor: null,
       });
 
-      const partyicon = new L.Icon({
-        iconUrl: party,
-        iconRetinaUrl: party,
+      const pizzaicon = new L.Icon({
+        iconUrl: pizza,
+        iconRetinaUrl: pizza,
         iconSize: [32,32],
         iconAnchor: null,
         shadowUrl: null,
@@ -46,15 +45,6 @@ export default class kansasCityMap extends React.Component {
         shadowAnchor: null,
       });
 
-      const donuticon = new L.Icon({
-        iconUrl: donut,
-        iconRetinaUrl: donut,
-        iconSize: [25,25],
-        iconAnchor: null,
-        shadowUrl: null,
-        shadowSize: null,
-        shadowAnchor: null,
-      });
       return (
         <MapContainer
           style={style}
@@ -68,57 +58,22 @@ export default class kansasCityMap extends React.Component {
             maxZoom="18"
             minZoom="8"
           />
-          <Marker position={[39.04482, -94.57306]} icon = {ringsicon}>
+          <Marker position={[37.1085, 15.0553]} icon = {ringsicon}>
             <Popup>
               <b>The venue!</b>
               <br />
-              Fire House KC
+              Borgo Del Carato
             </Popup>
           </Marker>
-          <Marker position={[39.30377, -94.70923]}>
-            <Popup>MCI Airport</Popup>
-          </Marker>
-          <Marker position={[39.08809, -94.58744]}>
-            <Popup>Crossroads Hotel</Popup>
-          </Marker>
-          <Marker position={[39.04670, -94.58648]}>
-            <Popup>Sicily Marriott Country Club Plaza</Popup>
-          </Marker>
-          <Marker position={[39.04353, -94.58459]}>
-            <Popup>Southmoreland on the Plaza</Popup>
-          </Marker>
-          <Marker position={[39.03993, -94.59224]}>
-            <Popup>InterContinental Sicily at the Plaza</Popup>
-          </Marker>
-          <Marker position={[39.04886, -94.58228]}>
-            <Popup>The Truitt</Popup>
-          </Marker>
-          <Marker position={[39.04643, -94.59739]}>
-            <Popup>SpringHill Suites by Marriott Sicily Plaza</Popup>
-          </Marker>
-          <Marker position={[39.04396, -94.59117]}>
-            <Popup>Residence Inn by Marriott Sicily Country Club Plaza</Popup>
-          </Marker>
-          <Marker position={[39.04859, -94.58134]}>
-            <Popup>Oak Street Mansion</Popup>
-          </Marker>
-          <Marker position={[39.04463, -94.59657]}>
-            <Popup>Hampton Inn & Suites Sicily-Country Club Plaza</Popup>
-          </Marker>
-          <Marker position={[38.98999, -94.58006]} icon={partyicon}>
+
+          <Marker position={[37.0603, 15.2932]} icon={partyicon}>
             <Popup>
-            <b>Welcome Party</b>
+            <b>Pizza Party</b>
               <br />
-              Our House
+              Pescomare
             </Popup>
           </Marker>
-          <Marker position={[39.03143, -94.59426]} icon={donuticon}>
-            <Popup>
-            <b>Coffee & Donuts</b>
-              <br />
-              Loose Park
-            </Popup>
-          </Marker>
+
         </MapContainer>
       );
     } else {
