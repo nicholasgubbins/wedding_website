@@ -9,7 +9,7 @@ export default (props) => (
   <Layout title="Schedule" location={props.location}>
     <div className="one-column">
       <div>
-        <i class="fa-solid fa-pizza-slice fa-2xl" />
+        <i class="fa-solid fa-pizza-slice fa-2xl inline-icons" />
         <h2>Pizza Party</h2>
         <h4>Friday 15 September, 2023</h4>
         <h4>6:30pm-10:00pm</h4>
@@ -23,7 +23,7 @@ export default (props) => (
       </div>
       <hr />
       <div>
-        <i class="fa-solid fa-champagne-glasses fa-2xl" />
+        <i class="fa-solid fa-champagne-glasses fa-2xl inline-icons" />
         <h2>Wedding</h2>
         <h4>Saturday 16 September, 2023</h4>
         <h4>3pm-late</h4>

@@ -13,7 +13,8 @@ export default (props) => (
     <article id="travel">
       <div className="two-grid">
         <div>
-          <img alt="" src={plane} />
+        <i class="fa-solid fa-plane-departure fa-2xl inline-icons" />
+
           <h3>Flying.</h3>
           <p>
             The closest and main airport in Sicily is Catania (CTA), which is a
@@ -31,7 +32,7 @@ export default (props) => (
           </p>
         </div>
         <div>
-          <img alt="" src={car} />
+        <i class="fa-solid fa-car-side fa-2xl inline-icons" />
           <h3>Getting around.</h3>
           <p>
             You will probably want to rent car to more easily explore the area.
@@ -48,7 +49,7 @@ export default (props) => (
       <div className="two-grid">
         <div>
           <div className="reservations">
-            <img alt="" src={house1} />
+          <i class="fa-solid fa-hotel fa-2xl inline-icons" />
             <h3>Near Borgo Del Carato</h3>
             <ul>
               <li>
@@ -61,7 +62,7 @@ export default (props) => (
         </div>
         <div>
           <div className="reservations">
-            <img alt="" src={house3} />
+          <i class="fa-solid fa-hotel fa-2xl inline-icons" />
             <h3>Syracuse & Ortigia</h3>
             <ul>
               <li>
