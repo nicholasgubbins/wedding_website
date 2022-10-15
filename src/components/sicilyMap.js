@@ -2,8 +2,6 @@ import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 
-import rings from "../images/wedding-rings.svg";
-import pizza from "../images/pizza.svg";
 
 export default class SicilyMap extends React.Component {
   state = {

@@ -2,9 +2,6 @@ import React from "react";
 import Layout from "../components/layout";
 import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
 
-import rings from "../images/wedding-rings.svg";
-import pizza from "../images/pizza.png";
-
 export default (props) => (
   <Layout title="Schedule" location={props.location}>
     <div className="one-column">

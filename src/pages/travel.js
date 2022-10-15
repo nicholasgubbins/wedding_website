@@ -1,19 +1,12 @@
 import React from "react";
 import Layout from "../components/layout";
 
-import plane from "../images/airplane.jpg";
-import car from "../images/car.png";
-import house1 from "../images/001-mansion.svg";
-import house2 from "../images/003-house-1.svg";
-import house3 from "../images/004-house-2.svg";
-import house4 from "../images/005-house-3.svg";
-
 export default (props) => (
   <Layout title="Travel & Accomodation" location={props.location}>
     <article id="travel">
       <div className="two-grid">
         <div>
-        <i class="fa-solid fa-plane-departure fa-2xl inline-icons" />
+          <i class="fa-solid fa-plane-departure fa-2xl inline-icons" />
 
           <h3>Flying.</h3>
           <p>
@@ -32,7 +25,7 @@ export default (props) => (
           </p>
         </div>
         <div>
-        <i class="fa-solid fa-car-side fa-2xl inline-icons" />
+          <i class="fa-solid fa-car-side fa-2xl inline-icons" />
           <h3>Getting around.</h3>
           <p>
             You will probably want to rent car to more easily explore the area.
@@ -49,12 +42,12 @@ export default (props) => (
       <div className="two-grid">
         <div>
           <div className="reservations">
-          <i class="fa-solid fa-hotel fa-2xl inline-icons" />
+            <i class="fa-solid fa-hotel fa-2xl inline-icons" />
             <h3>Near Borgo Del Carato</h3>
             <ul>
               <li>
-                <a href="https://www.marriott.com/hotels/travel/mcipl-kansas-city-marriott-country-club-plaza/">
-                  Sicily Marriott Country Club Plaza
+                <a href="https://www.borgodegliulivi.com/en/">
+                  Recommended: Borgo Degli Ulivi
                 </a>
               </li>
             </ul>
@@ -62,19 +55,11 @@ export default (props) => (
         </div>
         <div>
           <div className="reservations">
-          <i class="fa-solid fa-hotel fa-2xl inline-icons" />
+            <i class="fa-solid fa-hotel fa-2xl inline-icons" />
             <h3>Syracuse & Ortigia</h3>
             <ul>
               <li>
-                <a href="https://www.borgodegliulivi.com/en/">Recommended: Borgo Degli Ulivi</a>
-              </li>
-              <li>
-                <a href="https://www.thetruitt.com/">The Truitt</a>
-              </li>
-              <li>
-                <a href="https://southmoreland.com/">
-                  Southmoreland on the Plaza
-                </a>
+                <a href="http://guthotel.it/">Hotel Gutkowski</a>
               </li>
             </ul>
           </div>
