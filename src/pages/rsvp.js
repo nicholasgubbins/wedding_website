@@ -67,11 +67,10 @@ import { Success, Failure } from "../components/rsvp-success";
 // //         data: {
 // //           ...prevState.data,
 // //           [name]: value
-        
+
 // //       }
 // //     }));
 // //   };
-
 
 // //   handleGuest = e => {
 // //     const { name, value } = e.target;
@@ -83,18 +82,18 @@ import { Success, Failure } from "../components/rsvp-success";
 // //         return (
 // //           this.setState(prevState => {
 // //             console.log(prevState.data.nattending)
-// //             return {         
+// //             return {
 // //               data:{...prevState.data,
 // //                     nattending:0},
 // //               toggle: !prevState.toggle,
-// //               togglefood: false 
+// //               togglefood: false
 // //             };
 // //           })
 // //         )
 // //         case 'attending':
 // //           return (
 // //             this.setState(prevState => {
-// //               return {         
+// //               return {
 // //                 data: {
 // //                   ...prevState.data,
 // //                 },
@@ -103,7 +102,7 @@ import { Success, Failure } from "../components/rsvp-success";
 // //             })
 // //           )
 // //         default :
-        
+
 // //     }
 // //   }
 
@@ -114,7 +113,7 @@ import { Success, Failure } from "../components/rsvp-success";
 // //         data: {
 // //           ...prevState.data,
 // //           [name]: value
-        
+
 // //       },
 // //       togglefood: true
 // //     }));
@@ -123,7 +122,7 @@ import { Success, Failure } from "../components/rsvp-success";
 // //       data: {
 // //         ...prevState.data,
 // //         [name]: value
-      
+
 // //     },
 // //     togglefood: false
 // //     }));
@@ -218,31 +217,30 @@ import { Success, Failure } from "../components/rsvp-success";
 // //                   </li>
 // //                 </ul>
 // //               </div>
-// //               {this.state.toggle && 
+// //               {this.state.toggle &&
 // //                 <FormDataDetails
 // //                   handleChange={this.handleChange}
 // //                   handleChangenum={this.handleFood}
 // //                   values={second}
 // //                 />
 // //               }
-// //               {this.state.togglefood && 
+// //               {this.state.togglefood &&
 // //                 (<FormDataDetailsTacos
 // //                   handleChange={this.handleChange}
 // //                   values={third}
 // //                   people = {second.nattending}
 // //                 />)
 // //               }
-// //               {((this.state.data.nattending*3 > (Number(this.state.data.taco1) + Number(this.state.data.taco2)+Number(this.state.data.taco3))) 
+// //               {((this.state.data.nattending*3 > (Number(this.state.data.taco1) + Number(this.state.data.taco2)+Number(this.state.data.taco3)))
 // //               && this.state.data.nattending != 0 ) &&
 // //                <p>Add more tacos to submit!</p>}
-// //               {((this.state.data.nattending*3 < (Number(this.state.data.taco1) + Number(this.state.data.taco2)+Number(this.state.data.taco3))) 
+// //               {((this.state.data.nattending*3 < (Number(this.state.data.taco1) + Number(this.state.data.taco2)+Number(this.state.data.taco3)))
 // //               && this.state.data.nattending != 0 ) &&
 // //                <p>Error, Too many tacos selected (3 per person for now please!)</p>}
-                
+
 // //               {((this.state.data.nattending*3 == (Number(this.state.data.taco1) + Number(this.state.data.taco2)+Number(this.state.data.taco3)))
 // //               || this.state.data.nattending == 0 ) &&
 // //                <input type="submit" value="I promise I'll be good" />}
-                
 
 // //             </form> }
 // //           </section>
@@ -253,9 +251,11 @@ import { Success, Failure } from "../components/rsvp-success";
 // }
 
 export default (props) => (
-  <Layout title="Coming Soon" location={props.location}>
+  <Layout title="RSVP" location={props.location}>
     <article id="Coming Soon">
+      <section>
+        <h3 style={{ textAlign: "center" }}>Coming Soon</h3>
+      </section>
     </article>
   </Layout>
 );
-
