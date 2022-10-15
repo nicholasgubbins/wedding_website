@@ -10,8 +10,8 @@ module.exports = {
         name: "Terouz & Nick Get Married",
         short_name: "Terouz & Nick",
         start_url: "/",
-        background_color: "#cc5500",
-        theme_color: "#cc5500",
+        background_color: "#C86733",
+        theme_color: "#C86733",
         display: "standalone",
         icon: "src/images/italy.png" // This path is relative to the root of the site.
       }
