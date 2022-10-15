@@ -13,7 +13,7 @@ module.exports = {
         background_color: "#bfe8e3",
         theme_color: "#bfe8e3",
         display: "standalone",
-        icon: "src/images/fountain.png" // This path is relative to the root of the site.
+        icon: "src/images/italy.png" // This path is relative to the root of the site.
       }
     },
     "gatsby-plugin-image",
