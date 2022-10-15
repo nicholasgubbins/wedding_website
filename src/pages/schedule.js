@@ -6,7 +6,7 @@ import donut from "../images/donut.svg";
 import pizza from "../images/pizza.png";
 import party from "../images/party.png";
 
-export default props => (
+export default (props) => (
   <Layout title="Schedule" location={props.location}>
     <div className="one-column">
       <div>
@@ -18,10 +18,11 @@ export default props => (
         <h4>Via Saverio Landolina, 6, 96100 Siracusa SR, Italy</h4>
         <h5>Casual</h5>
         <p>
-         Nick really loves Pizza, so please join us for a welcome pizza party on the beautiful island of Ortigia. 
+          Nick really loves Pizza, so please join us for a welcome pizza party
+          on the beautiful island of Ortigia.
         </p>
       </div>
-      <hr /> 
+      <hr />
       <div>
         <img alt="Wedding Rings" src={rings} />
         <h2>Wedding</h2>
@@ -31,10 +32,15 @@ export default props => (
         <h4>S.S. 124 Km 97, 96010 Palazzolo Acreide SR, Italy</h4>
         <h5>Mediterranean Chic</h5>
         <p>
-          3 pm seating for a 3:30 pm ceremony followed by great good food, good drinks,
-          and good times!
+          3 pm seating for a 3:30 pm ceremony followed by great good food, good
+          drinks, and good times!
         </p>
       </div>
+      <StaticImage
+        src="../images/borgo.jpg"
+        alt="Borgo del Carato"
+        placeholder="blurred"
+      />
       <hr />
     </div>
   </Layout>
