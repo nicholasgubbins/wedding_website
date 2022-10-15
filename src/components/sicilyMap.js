@@ -10,7 +10,7 @@ import pizza from '../images/pizza.svg';
 export default class SicilyMap extends React.Component {
   state = {
     lat: 37.0833,
-    lng: 37.0833,
+    lng: 15.1520,
     zoom: 10
   };
 
