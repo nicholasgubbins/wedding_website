@@ -4,19 +4,17 @@ import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
 
 export default (props) => (
   <Layout title="Nick &amp; Terouz" location={props.location}>
+    <article id="story">
+      <section>
+        <hr />
+        <p>Nick & Terouz cordially invite you to come on holiday</p>
+      </section>
+    </article>
+
     <StaticImage
       src="../images/tpng.jpg"
       alt="Terouz and Nick smiling"
       placeholder="blurred"
     />
-
-    <article id="story">
-      <section>
-        <hr />
-        <h2>We can't wait to celebrate with you!</h2>
-        <hr />
-        <p>Nick & Terouz cordially invite you to come on holiday</p>
-      </section>
-    </article>
   </Layout>
 );
