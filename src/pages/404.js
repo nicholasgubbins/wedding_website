@@ -5,7 +5,7 @@ export default props => (
   <Layout title="404" location={props.location}>
     <article id="404">
       <section>
-        <p>You just hit a route that doesn&#39;t exist... sad!</p>
+        <p>You're not meant to be here... sad!</p>
       </section>
     </article>
   </Layout>
