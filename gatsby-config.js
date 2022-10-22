@@ -7,7 +7,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Terouz & Nick Get Married",
+        name: "Terouz & Nick Get Married! c:",
         short_name: "Terouz & Nick",
         start_url: "/",
         background_color: "#FFFFFF",
