@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Terouz &amp; Nick Get Married"
+    title: "Terouz &amp; Nick Get Married",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -10,11 +10,11 @@ module.exports = {
         name: "Terouz & Nick Get Married",
         short_name: "Terouz & Nick",
         start_url: "/",
-        background_color: "#C86733",
-        theme_color: "#C86733",
+        background_color: "#FFFFFF",
+        theme_color: "#FFFFFF",
         display: "standalone",
-        icon: "src/images/italy.png" // This path is relative to the root of the site.
-      }
+        icon: "src/images/italy.png", // This path is relative to the root of the site.
+      },
     },
     "gatsby-plugin-image",
     {
@@ -28,5 +28,5 @@ module.exports = {
     "gatsby-plugin-offline",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
-  ]
+  ],
 };

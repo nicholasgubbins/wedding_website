@@ -11,8 +11,8 @@ export default (props) => (
           <h3>Flying.</h3>
           <p>
             The closest and main airport in Sicily is Catania (CTA), which is a
-            30 minute drive away. There are good regular direct flights from
-            London to Catania with BA, Easyjet & Ryanair.
+            30 minute drive away from the wedding venue. There are regular
+            direct flights from London to Catania with BA, Easyjet & Ryanair.
           </p>
           <p>
             For those travelling from further afield, you can fly to other
@@ -29,16 +29,21 @@ export default (props) => (
           <h3>Getting around.</h3>
           <p>
             You will probably want to rent car to more easily explore the area.
-            There is also a train system that connects Catania to Syracuse, but
-            in true Southern European style, it is hardly reliable. and busses.
-            We will be providing some transport for the events. There is patchy
-            Uber and Bolt around Sicily, but mostly focused in the city centres.
+            There is also a train system and busses that connects Catania to
+            Syracuse, but in true Southern European style, it is hardly
+            reliable.
+          </p>
+          <p>
+            We will be providing some transport for the events for those staying
+            in Syracuse and Borgo degli Ulivi. There is patchy Uber and Bolt
+            around Sicily, but mostly focused in the city centres.
           </p>
         </div>
       </div>
-      <hr></hr>
+      <p></p>
+      <hr/>
 
-      <h2>Where to stay.</h2>
+      <h2><ul>Where to stay.</ul></h2>
       <div className="two-grid">
         <div>
           <div className="reservations">

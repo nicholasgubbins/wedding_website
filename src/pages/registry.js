@@ -17,7 +17,11 @@ export default (props) => (
           wasted effort, so if you would like to send a gift, please use the
           below registry.
         </p>
-        <a href="#" target="_blank" rel="noopener noreferrer"><u><h2>Registry</h2></u></a>
+        <a href="#" rel="noopener noreferrer">
+          <u>
+            <h2>Coming Soon</h2>
+          </u>
+        </a>
       </div>
     </article>
   </Layout>

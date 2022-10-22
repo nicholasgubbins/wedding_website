@@ -6,37 +6,44 @@ export default (props) => (
   <Layout title="FAQ" location={props.location}>
     <article id="FAQ">
       <section>
-        <h3 style={{ textAlign: "center" }}>
-          Are children invited to the wedding?
-        </h3>
-        <p>
-          Please feel free to bring babies and children to the wedding, but
-          please confirm with your RSVP so we can cater appropriately.
-        </p>
-        <h3>How do I get to Sicily?</h3>
+        <h2>How do I get to Sicily?</h2>
         <p>
           We have a whole page dedicated to travel{" "}
           <Link to="/travel">here</Link>.
         </p>
-        <h3>Where should we stay?</h3>
+        <h2>Where should we stay?</h2>
         <p>
           What an excellent question! Check out our page on{" "}
           <Link to="/travel">Travel & Accomodation</Link> to see some
           suggestions.
         </p>
-        <h3>How do I get to & from the wedding?</h3>
+        <h2>How do I get to & from the wedding?</h2>
         <p>
           We will be organising a shuttle to & from the wedding from Ortigia and
           Borgo degli Ulivi.
         </p>
-        <h3>Is anything going on the rest of the weekend?</h3>
+        <h2>Is anything going on the rest of the weekend?</h2>
         <p>
           Check out our <Link to="/schedule">schedule page</Link> to find out
           what other events we are hosting that weekend!
         </p>
-        <h3>What's the weather going to be like?</h3>
-        <p>Hopefully hot!</p>
-        <h3>When we're not at the wedding, what should we do?</h3>
+        <h2>What's the weather going to be like?</h2>
+        <p>
+          <a
+            href="https://www.weather-atlas.com/en/italy/syracuse-weather-september"
+            target="_blank"
+          >
+            Hopefully hot!
+          </a>
+        </p>
+        <h2 style={{ textAlign: "center" }}>
+          Are children invited to the wedding?
+        </h2>
+        <p>
+          We're keeping the adult only. If this is preclusive to you
+          coming, please let us know and we can work something out.
+        </p>
+        <h2>When we're not at the wedding, what should we do?</h2>
         <p>
           Check out our <Link to="/Sicily">Sicily</Link> page for some Sights &
           Activities!

@@ -7,7 +7,12 @@ export default (props) => (
     <article id="story">
       <section>
         <hr />
-        <p>Nick & Terouz cordially invite you to come on holiday</p>
+        <h2>We're getting married!</h2>
+        <hr />
+        <p>
+          We would love for you to join us for a weekend of good food and
+          celebration with our favourite people, all under the Italian sun.
+        </p>
       </section>
     </article>
 
