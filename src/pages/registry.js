@@ -1,6 +1,5 @@
 import React from "react";
 import Layout from "../components/layout";
-import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
 
 export default (props) => (
   <Layout title="Registry" location={props.location}>
