@@ -460,3 +460,11 @@ section {
 #bot-field {
     display: none !important;
 }
+
+
+.inline-article-image { 
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}

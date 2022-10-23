@@ -52,8 +52,9 @@ export default (props) => (
     <div>
       <StaticImage
         src="../images/ngtp2.jpg"
-        alt="Borgo del Carato"
+        alt="Our engagement"
         placeholder="blurred"
+        class="inline-article-image"
       />
     </div>
     <hr />
