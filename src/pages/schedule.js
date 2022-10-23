@@ -28,7 +28,7 @@ export default (props) => (
         <h4>S.S. 124 Km 97, 96010 Palazzolo Acreide SR, Italy</h4>
         <h5>Mediterranean Chic</h5>
         <p>
-          Don your best linen for fine fare, questionable speeches, and even
+          Don your best linen for celebration: fine fare, questionable speeches, and even
           more questionable dance moves.
         </p>
       </div>

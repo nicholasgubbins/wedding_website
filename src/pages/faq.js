@@ -22,6 +22,12 @@ export default (props) => (
           We will be organising a shuttle to & from the wedding from Ortigia and
           Borgo degli Ulivi.
         </p>
+        <h2 style={{ textAlign: "center" }}>
+          What does Mediterranean Chic actually mean?
+        </h2>
+        <p>
+          For chaps think linen suits (showing some ankle of course), chest hair brimming out of a crisp white shirt, shades, hell even a hat if you're really feeling yourself. For ladies, text TP. 
+        </p>
         <h2>Is anything going on the rest of the weekend?</h2>
         <p>
           Check out our <Link to="/schedule">schedule page</Link> to find out
@@ -40,7 +46,7 @@ export default (props) => (
           Are children invited to the wedding?
         </h2>
         <p>
-          We're keeping the adult only. If this is preclusive to you
+          We're keeping it adult only. If this is preclusive to you
           coming, please let us know and we can work something out.
         </p>
         <h2>When we're not at the wedding, what should we do?</h2>
