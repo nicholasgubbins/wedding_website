@@ -51,7 +51,7 @@ export default (props) => (
     </div>
     <div>
       <StaticImage
-        src="../images/borgo.jpg"
+        src="../images/ngtp2.jpg"
         alt="Borgo del Carato"
         placeholder="blurred"
       />
