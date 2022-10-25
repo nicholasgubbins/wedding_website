@@ -30,10 +30,23 @@ export default ({ children, location, title }) => (
     </div>
     <footer>
       <p>
-        Built with <i className="fas fa-heart" /> by Nick while Terouz was on night shifts. Forked on
-        <a href="https://github.com/martingaston/wedding_website">
+        Built with <i className="fas fa-heart" /> by Nick while Terouz was on
+        night shifts. Forked on
+        <a
+          href="https://github.com/martingaston/wedding_website"
+          target="_blank"
+        >
           <i className="fab fa-github" />
-        </a> from <a href="https://github.com/martingaston">@martingaston</a>. Lemons by TP. 
+        </a>
+        from{" "}
+        <a href="https://github.com/martingaston" target="_blank">
+          @martingaston
+        </a>
+        . Lemons by{" "}
+        <a href="https://www.terouzpasha.com/" target="_blank">
+          TP
+        </a>
+        .
       </p>
     </footer>
   </div>
