@@ -28,8 +28,7 @@ export default (props) => (
         <h4>S.S. 124 Km 97, 96010 Palazzolo Acreide SR, Italy</h4>
         <h5>Mediterranean Chic</h5>
         <p>
-          Don your best linen for celebration: fine fare, questionable speeches, and even
-          more questionable dance moves.
+          Don your best linen for celebration, fine fare and questionable speeches.
         </p>
       </div>
       <hr />
@@ -44,7 +43,7 @@ export default (props) => (
         <h5>B.Y.O.Swimsuits</h5>
         <p>
           Come join us when you're feeling delicate to hang by the pool, gossip,
-          all to the backdrop of Nick & Terouz's award winning* Spotify playlist.
+          all to the backdrop of Nick & Terouz's award-winning* playlists.
         </p>
       </div>
       <hr />
