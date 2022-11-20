@@ -41,9 +41,11 @@ export default (props) => (
         </div>
       </div>
       <p></p>
-      <hr/>
+      <hr />
 
-      <h2><ul>Where to stay.</ul></h2>
+      <h2>
+        <ul>Where to stay.</ul>
+      </h2>
       <div className="two-grid">
         <div>
           <div className="reservations">
@@ -53,6 +55,12 @@ export default (props) => (
               <li>
                 <a href="https://www.borgodegliulivi.com/en/">
                   Recommended: Borgo Degli Ulivi
+                </a>
+              </li>
+              <li>
+                <a href="https://www.imonasterigolfresort.com/">
+                  {" "}
+                  Borgo Di Luce I Monasteri{" "}
                 </a>
               </li>
             </ul>
@@ -65,6 +73,14 @@ export default (props) => (
             <ul>
               <li>
                 <a href="http://guthotel.it/">Hotel Gutkowski</a>
+              </li>
+              <li>
+                <a href="https://www.ilsalottodimariapia.it/">
+                  Il Salotto Di Maria Pia
+                </a>
+              </li>
+              <li>
+                <a href="https://lume-ortigia.com/en/elementor-6573/">Lùme</a>
               </li>
             </ul>
           </div>

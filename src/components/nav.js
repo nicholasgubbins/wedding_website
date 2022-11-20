@@ -33,10 +33,8 @@ export default class Nav extends React.Component {
       <nav>
         <div id="details">
           <div>
-            <a href="/static/TerouzAndNickWedding.ics">
               <i className="far fa-calendar-alt" />
-              September 15-17, 2023
-            </a>
+              September 15-16, 2023
           </div>
           <div>
             <a href="https://goo.gl/maps/6Sb6qvNKRvXMppHg8">
@@ -56,7 +54,6 @@ export default class Nav extends React.Component {
           />
           <List path={this.props.path} link={"/registry"} text={"Registry"} />
           <List path={this.props.path} link={"/faq"} text={"FAQ"} />
-          <List path={this.props.path} link={"/rsvp"} text={"RSVP"} />
         </ul>
       </nav>
     );
