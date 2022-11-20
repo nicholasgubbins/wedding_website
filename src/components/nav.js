@@ -33,8 +33,8 @@ export default class Nav extends React.Component {
       <nav>
         <div id="details">
           <div>
-              <i className="far fa-calendar-alt" />
-              September 15-16, 2023
+            <i className="far fa-calendar-alt" />
+            September 15-16, 2023
           </div>
           <div>
             <a href="https://goo.gl/maps/6Sb6qvNKRvXMppHg8">
