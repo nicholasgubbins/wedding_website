@@ -18,7 +18,7 @@ export default (props) => (
         </p>
         <a href="#" rel="noopener noreferrer">
           <u>
-            <h2>Coming Soon</h2>
+            <h2><a href="https://prezola.com/wishlists/10283074/">Prezola Registry</a></h2>
           </u>
         </a>
       </div>
