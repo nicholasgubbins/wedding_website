@@ -12,7 +12,7 @@ export default (props) => (
         <h4>7:30pm</h4>
         <h3>Ortigia</h3>
         <h4>Via Saverio Landolina, 6, 96100 Siracusa SR, Italy</h4>
-        <h5>Casual</h5>
+        <h5>Smart Casual</h5>
         <p>
           Nick really loves Pizza, so please join us for a welcome pizza party
           on the beautiful island of Ortigia.
